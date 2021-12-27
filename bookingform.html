@@ -1,0 +1,109 @@
+<html>
+<head>
+<style>
+*
+{
+margin:0;
+padding:0;
+}
+body
+{
+ background-image:url(logo.jfif);
+background-position:center;
+background-size:cover;
+font-family:sans-serif;
+margin-top:40px;
+}
+.form{
+width:800px;
+background-color:#666666;
+margin:auto;
+color:white;
+padding:10px 10px 10px 10px;
+text-align:center;
+}
+.booking
+{
+width:800px;
+border:2px solid #ff9900;
+margin:auto;
+}
+form{
+padding:10px;
+text-align:center;
+}
+#name{
+width:100%;
+height:100px;
+}
+.name
+{
+margin-left:25px;
+margin-top:30px;
+width:125px;
+color:white;
+font-size:18px;
+font-family:700;
+}
+.y a
+{
+text-decoration:none;
+	padding-bottom:15px;
+	padding-top:15px;
+	padding-left:30px;
+	padding-right:30px;
+	border-radius:25px;
+	color:white;
+	float:right;
+	font-size:200%;
+}
+
+
+
+</style>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+<div class="y">
+
+<a href="1.html"><span class="fas fa-chevron-circle-left"></span></a>
+</div>
+<div>
+<div class="room">
+<div class="form">
+<center>
+<h3>BOOKING FORM</h3>
+</center>
+</div>
+<div class="booking">
+<form action="book.html">
+<tr><td>
+<div id="name">
+<h2 class="name">Name:</h2></td><td>
+<input class="firstname" type="text" placeholder="firstname" required><br><br></td><td>
+<input class="lastname" type="text" placeholder="lastname" required ></td>
+</div>
+<h2 class="name">Email:<h2>
+<input class="email" type="text" placeholder="email" required>
+<h2 class="name">Contactno:<h2>
+<input class="num" type="text" required>
+<h2 class="name">Checkin:<h2>
+<input class="date" type="date" required>
+<h2 class="name">Checkout:<h2>
+<input class="date" type="date" required>
+<h2 class="name">Room:</h2>
+<select class="option">
+<option>Select a option...</option>
+<option>Luxuary room</option>
+<option>General room</option>
+<option>Conference hall</option>
+<option>Rooftop</option>
+</select>
+<br><br><br>
+<input type="submit"value="Book now">
+		  
+		 
+</form>
+</div>
+</body>
+</html>
